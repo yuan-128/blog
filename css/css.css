@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{ width:100%; height:100%;}
+body{ font-family:"微软雅黑", Arial, sans-serif; font-size:14px; line-height:24px; color:#333; background:#fff;}
+a{ text-decoration:none; color:#333;-webkit-tap-highlight-color:transparent;}
+*{ list-style:none; margin:0; border:none; outline:none; padding:0;}
+.fl{ float:left;}
+.fr{ float:right;}
+.ov{ overflow:hidden;}
+.dis{ display:block !important;}
+.dn{ display:none;}
+.clear{ clear:both;}
+.clear:after,.clear:before{ content:""; display:block; clear:both;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ color:#999;} 
+input:-moz-placeholder,textarea:-moz-placeholder{ color:#999;} 
+input::-moz-placeholder,textarea::-moz-placeholder{ color:#999;} 
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{ color:#999;} 
+input,textarea{ -webkit-appearance:none;}
+input[type=checkbox]{ -webkit-appearance:checkbox;}
+
+.tu{ position:absolute; top:50%; left:50%; transform:translateX(-50%) translateY(-50%); height:100%;}
+.tu img{ height:100%; display:block; margin:auto;}
+.tu .h01{ position:absolute; bottom:12.85%; left:20%; width:18.28%; height:7.6%; cursor:pointer;}
+.tu .h02{ position:absolute; bottom:12.85%; left:41.28%; width:19%; height:7.6%; cursor:pointer;}
+.tu .h03{ position:absolute; bottom:12.85%; left:64%; width:17.43%; height:7.6%; cursor:pointer;}
+.tu a img{ height:50vh !important; position:absolute; left:50%; transform:translateX(-50%); bottom:120%; border:10px solid #fff; display:none; box-shadow:0 0 10px rgba(0,0,0,0.3);}
+.tu a:hover img{ display:block;}
